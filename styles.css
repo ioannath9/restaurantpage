@@ -4,10 +4,17 @@
 	font-family:sans-serif;
 }
 
+a:link {
+  color: inherit;
+  
+}
+
 body{
 	width:100%;
 	overflow-x:hidden 
 }
+
+
 
 .leave_margins{
 	margin-left:70px;
@@ -51,34 +58,40 @@ padding-right:10px;
 	
 	display:flex;
 	flex-direction: row;
+	/*align-items: center;
+	justify-content: center; an ήθελα να είναι στο κέντρο του κίτρινου πλαισίου*/
 	height:200px;
-	background-color:yellow;
+	margin-top:200px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color: #fffee0;
+	font-size:14px;
+	
+	
 }
 
 #location {
 	
 	flex-grow: 7;
-	/*background-color:red;*/
-	 margin-left:70px;
+	margin-left:70px;
+	
 	
 }
 
-#hours,#contact{
+#hours{
+	flex-grow: 1;	
+}
+
+#contact{
 	flex-grow: 1;
+	margin-right:70px;
 	
 }
 
 
 
-#title {
-	
-	text-decoration:underline;
-	
-}
-
-#description{
-	font-size: 18px;
-	
+ #kitchen_close {
+	font-size:10px;
 }
 
 
@@ -117,9 +130,9 @@ padding-right:10px;
 	 
  }
 
+/*right footer*/
 
  #press{
-	/* display:inline-block;*/
 	margin-right:70px;
 	width:260px;
 	color:white;
