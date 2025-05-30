@@ -1,0 +1,126 @@
+
+
+*{
+	font-family:sans-serif;
+}
+
+body{
+	width:100%;
+	overflow-x:hidden 
+}
+
+.leave_margins{
+	margin-left:70px;
+	margin-right:70px;
+	
+}
+
+.flexbar_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size:18px;
+  color:black;
+  text-decoration:none;
+
+}
+
+
+li{
+display:inline;
+padding-right:10px;
+}
+
+.about_us{
+	display:flex;
+	width: 900px;
+	 height:280px;
+	 align-items: center;
+	
+}
+
+.about_us p{
+	text-align:center;
+	font-size: 18px;
+	font-weight:bold;
+	color:black;
+	
+	 
+}
+.info_rmation{
+	
+	display:flex;
+	flex-direction: row;
+	height:200px;
+	background-color:yellow;
+}
+
+#location {
+	
+	flex-grow: 7;
+	/*background-color:red;*/
+	 margin-left:70px;
+	
+}
+
+#hours,#contact{
+	flex-grow: 1;
+	
+}
+
+
+
+#title {
+	
+	text-decoration:underline;
+	
+}
+
+#description{
+	font-size: 18px;
+	
+}
+
+
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  text-align: center;
+	font-size:37px;
+	text-decoration:underline;
+}
+
+
+
+
+.footer{
+	display:flex;
+	flex-flow:column wrap;
+	align-content: space-between;
+	height: 320px;
+	background-color: black;
+	color: white;
+}
+
+
+
+ #left_footer{
+	 display:inline-block; 
+	 width:400px;
+	 margin-left:70px;
+	 
+ }
+
+
+ #press{
+	/* display:inline-block;*/
+	margin-right:70px;
+	width:260px;
+	color:white;
+}
